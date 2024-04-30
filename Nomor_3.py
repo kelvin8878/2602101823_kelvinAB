@@ -1,6 +1,8 @@
 import streamlit as st
 import joblib
 import numpy as np
+import xgboost as xgb
+from xgboost import XGBClassifier
 from sklearn.preprocessing import LabelEncoder  # For categorical variable encoding
 
 # Load the machine learning model
